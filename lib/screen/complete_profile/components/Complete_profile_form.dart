@@ -2,6 +2,8 @@ import 'package:ecotronic_earth/components/custom_surffix_icon.dart';
 import 'package:ecotronic_earth/components/default_button.dart';
 import 'package:ecotronic_earth/components/form_error.dart';
 import 'package:ecotronic_earth/constants.dart';
+import 'package:ecotronic_earth/helper/keyboard.dart';
+import 'package:ecotronic_earth/screen/home_empty/home_empty.dart';
 import 'package:ecotronic_earth/size_config.dart';
 import 'package:flutter/material.dart';
 
@@ -56,7 +58,9 @@ class _CompleteProfileFormState extends State<CompleteProfileForm> {
             text: "Continuar",
             press: () {
               if(_formKey.currentState!.validate()){
-
+                _formKey.currentState!.save();
+                Keyboard.hideKeyboard(context);
+                Navigator.pushNamed(context, HomeEmpty.routerName);
               }
             },
           )
