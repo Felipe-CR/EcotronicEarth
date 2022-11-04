@@ -12,7 +12,7 @@ final headingStyle = TextStyle(
 );
 
 final RegExp emailValidatorRegExp =
-  RegExp(r"^[a-zA-Z0-9.]+@[a-zA-Z0-9]+\.[a-zA-Z]+");
+  RegExp(r"^[a-zA-Z0-9.]+@[a-zA-Z]+\.[a-zA-Z]+");
 const String kEmailNullError = "Por favor ingrese su Email";
 const String kInvalidEmailError = "Por favor ingrese un Email valido";
 const String kPassNullError = "Por favor ingrese su contraseña";
