@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Ecotronic Earth",
+      title: "Handle",
       theme: theme(),
       initialRoute: SignInScreen.routeName,
       routes: routes,
