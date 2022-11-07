@@ -18,5 +18,5 @@ const String kInvalidEmailError = "Por favor ingrese un Email valido";
 const String kPassNullError = "Por favor ingrese su contraseña";
 const String kShortPassError = "La contraseña es muy corta";
 const String kMatchPassError = "La contraseña no coinciden";
-const String kNamelNullError = "Please Enter your name";
-const String kPhoneNumberNullError = "Please Enter your phone number";
+const String kNamelNullError = "Por favor ingrese su nombre";
+const String kPhoneNumberNullError = "Por favor ingrese su número celular";
